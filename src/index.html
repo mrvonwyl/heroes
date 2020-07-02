@@ -1,12 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>webpack starterkit</title>
-</head>
-<body>
-  <h1>webpack starter</h1>
-  <p>✨ A lightweight foundation for your next webpack based frontend project.</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Heroes - Marcel on Wyl</title>
+  </head>
+  <body>
+    <header class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="side-image header-image"></div>
+        </div>
+        <div class="col-md-6">
+          <div class="title">
+            <h1>
+              Aus- & Weiterbildungen<br />
+              <strong>Überblick</strong>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="content container-fluid">
+      <div class="row">
+        <div class="container">
+          <section class="col-lg-6">
+            <h2>Nächste Infoveranstaltungen</h2>
+
+            <article class="event">
+              <time class="event-date" datetime="2020-02-02">
+                <span class="event-date-day">02.</span>
+                <span class="event-date-month">feb</span>
+              </time>
+              <div class="event-body">
+                <p class="event-time-location">
+                  <time>18:30</time> - <time>20:00</time> Uhr | Luzern<br />
+                </p>
+                <p class="event-title">
+                  Infoveranstaltung höhere Berufsbildung Informatik
+                </p>
+                <div class="btn event-btn-subscribe">
+                  Anmelden <span class="event-btn-subscribe-icon"></span>
+                </div>
+              </div>
+            </article>
+
+            <article class="event">
+              <time class="event-date" datetime="2020-02-02">
+                <span class="event-date-day">09.</span>
+                <span class="event-date-month">mar</span>
+              </time>
+              <div class="event-body">
+                <p class="event-time-location">
+                  <time>18:30</time> - <time>20:00</time> Uhr | Luzern<br />
+                </p>
+                <p class="event-title">
+                  Infoveranstaltung höhere Berufsbildung Informatik
+                </p>
+                <div class="btn event-btn-subscribe">
+                  Anmelden <span class="event-btn-subscribe-icon"></span>
+                </div>
+              </div>
+            </article>
+
+            <div class="buttons">
+              <button class="btn btn-outline btn-block event-btn-all">
+                Alle Inforveranstaltungen
+              </button>
+            </div>
+          </section>
+        </div>
+
+        <div class="col-lg-6 side">
+          <div class="side-image content-image"></div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
